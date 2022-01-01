@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #6259ac;
+	color: #fff;
+}
+.container {
+	padding: 2% 7%;
+}
+h1,
+.card-title {
+	font-family: 'Playfair Display', serif;
+}
+.content-color {
+	color: #a099dc;
+}
+.header-title {
+	font-weight: 700;
+	font-size: 48px;
+}
+.header-content {
+	margin-top: 14px;
+}
+.btn-outline-light {
+	padding: 6px 28px;
+	font-size: 16px;
+}
+
+main {
+	margin-top: 5%;
+}
+.card {
+	background-color: transparent;
+	padding: 0 28%;
+	border: none;
+}
+.card-img {
+	width: 300px;
+}
+
+.description {
+	color: #a099dc;
+	font-size: 16px;
+}
+.price {
+	font-size: 30px;
+	font-weight: 300;
+}
+footer {
+	background-color: #333333;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+}
+.link-footer {
+	text-decoration: none;
+	color: #a099dc;
+}
+.link-footer:hover {
+	text-decoration: underline;
+	color: #6259ac;
+}
+@media only screen and (max-width: 1000px) {
+	.card {
+		padding: 0 10%;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.header-title {
+		font-size: 32px;
+	}
+	.header-content {
+		font-weight: 300;
+	}
+	.card-img {
+		width: 200px;
+	}
 }
