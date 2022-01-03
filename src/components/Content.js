@@ -11,7 +11,7 @@ export default function Content() {
 	return (
 		<section className="container p-4 text-white">
 			<div className="grid md:grid-flow-col grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-6 max-w-5xl mx-auto">
-				<div className="col-2 bg-teal-600 drop-shadow-md p-8">
+				<div className="col-2 bg-teal-600 p-8">
 					<h4 className="font-bold text-xl">Raw Fruits</h4>
 					<p className="font-normal mt-5">
 						Raw fruits are those which are not ripe properly. But it
